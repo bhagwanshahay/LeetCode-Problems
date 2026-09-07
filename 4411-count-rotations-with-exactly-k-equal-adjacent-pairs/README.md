@@ -1,14 +1,10 @@
 <h2><a href="https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs">Count Rotations With Exactly K Equal Adjacent Pairs</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a string <code>s</code> of length <code>n</code> and an integer <code>k</code>.</p>
 
-<p>A <strong>cyclic rotation</strong> of <code>s</code> is obtained by choosing a <strong>prefix</strong> of <code>s</code> whose length is between 0 and <code>n - 1</code> (inclusive), and moving it to the end of the string while preserving the order of all characters.</p>
+<p>A <strong>cyclic rotation</strong> of <code>s</code> is obtained by choosing a <span data-keyword="string-prefix">prefix</span> of <code>s</code> whose length is between 0 and <code>n - 1</code> (inclusive), and moving it to the end of the string while preserving the order of all characters.</p>
 
 <p>For <strong>every</strong> cyclic rotation of <code>s</code>, let its <strong>score</strong> be the number of indices <code>i</code> such that <code>0 &lt;= i &lt; n - 1</code> and the characters at positions <code>i</code> and <code>i + 1</code> are equal.</p>
 
 <p>Return the number of cyclic rotations of <code>s</code> whose score equals <code>k</code>.</p>
-
-<p>A <strong>prefix</strong> of a string is a substring that starts from the beginning of the string and extends to any point within it.</p>
-
-<p>A <strong>substring</strong> is a contiguous sequence of characters within a string, which may be empty.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
